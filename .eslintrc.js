@@ -6,6 +6,7 @@ module.exports = {
   extends: ["plugin:vue/essential", "@vue/prettier"],
   rules: {
     "no-console": "off",
+    "linebreak-style": 0,
     // "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
     // "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
     "prettier/prettier": ['error', {
@@ -14,7 +15,7 @@ module.exports = {
       useTabs: false,
       tabWidth: 2,
       trailingComma: 'all',
-      printWidth: 80,
+      // printWidth: 80,
       bracketSpacing: true,
       arrowParens: 'avoid',
     }]
